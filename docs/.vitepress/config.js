@@ -1,6 +1,7 @@
 module.exports = {
     title: 'RIF 20',
     description: 'Koolidokud',
+    base: '/tludocs',
 
       themeConfig: {
         nav: [
