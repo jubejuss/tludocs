@@ -53,7 +53,8 @@ Selgitus:
 Ehk, et ma otsisin `$allfiles` seest asju, mida loeme kui faile ja kui need on sobivas vormingus, lüllame nad picfiles massiivi
 
 ## Esimene kodutöö
-Täis kood näha siin: [https://github.com/jubejuss/githubactions/blob/main/kodutoo_01.php](https://github.com/jubejuss/githubactions/blob/main/kodutoo_01.php) 
+Täis kood näha siin: [https://github.com/jubejuss/githubactions/blob/main/kodutoo_01.php](https://github.com/jubejuss/githubactions/blob/main/kodutoo_01.php)  
+Nb! Arvesta, et näidises on kasutatud Bootstrapi, et veebilehele mingi kujundus tekitada, seega võid HTML-i osas kõik klassid lihtsalt kustutada.
 ### Näita kolme pilti, mis on erinevad 
 
 Ülesanne lisada kolm pilti moel, et need oleks kõik teineteisest erinevad.  
