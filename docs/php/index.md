@@ -1,6 +1,7 @@
 # PHP
 
 ## Esimene tund
+Esimese tunni töö näha siin: [https://github.com/jubejuss/githubactions/blob/main/tund_01.php](https://github.com/jubejuss/githubactions/blob/main/tund_01.php)  
 
 PHP põhimõtted.
 Muutujate deklareerimine/defineerimine.
