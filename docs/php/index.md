@@ -149,7 +149,7 @@ Antud näites on muutujad `$todaysweekdayhtml` ja `$todayname` lihtsalt pandud e
 #### või on lõppenud
 Sel juhul teeme väikse rehkenduse ja tingimuse, et kui, siis.  
 
-Esmalt tekitan välja, kuhu saan kirjutada enda poolt valitud kuupäeva (II rida) ja selle järgi defineerin rea, mida on hea kuvada. See ver2 tähendab lihtsalt, et mul siin failis todayd ka mujal kasutatud, seega tekitasin ver2.
+Esmalt tekitan välja, kuhu saan kirjutada enda poolt valitud kuupäeva (II rida) ja selle järgi defineerin rea, mida on hea kuvada. 
 ```php
 $today_manually = new DateTime();        
 $today_manually->setDate(2020, 5, 10);
@@ -175,3 +175,6 @@ if($fromsemesterbegindays <= $semesterdurationdays && $fromsemesterbegindays >=0
         $semesterprogress_ver2 = " oleks semester lõppenud.";}
     }
 ```
+Täismahus koode vaata siis siit:  
+[Lihtsam versioon](https://github.com/jubejuss/githubactions/blob/main/kodutoo_01_lihtsam.php)  
+[Keerulisem versioon](https://github.com/jubejuss/githubactions/blob/main/kodutoo_01_keerulisem.php)
