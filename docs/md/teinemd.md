@@ -1,3 +1,3 @@
 # Teine md lk
 
-## teine jah tõepoolest tein
+## Hoian puhtalt selleks, et ei ununeks

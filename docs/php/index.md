@@ -54,7 +54,8 @@ Selgitus:
 Ehk, et ma otsisin `$allfiles` seest asju, mida loeme kui faile ja kui need on sobivas vormingus, lüllame nad picfiles massiivi
 
 ## Esimene kodutöö
-Täis kood näha siin: [https://github.com/jubejuss/githubactions/blob/main/kodutoo_01.php](https://github.com/jubejuss/githubactions/blob/main/kodutoo_01.php)  
+Täis kood lihtsama lahendusega on siin: [https://github.com/jubejuss/githubactions/blob/main/kodutoo_01_lihtsam.php](https://github.com/jubejuss/githubactions/blob/main/kodutoo_01_lihtsam.php)  
+ja keerulisemaga siin: [https://github.com/jubejuss/githubactions/blob/main/kodutoo_01_keerulisem.php](https://github.com/jubejuss/githubactions/blob/main/kodutoo_01_keerulisem.php)   
 Nb! Arvesta, et näidises on kasutatud Bootstrapi, et veebilehele mingi kujundus tekitada, seega võid HTML-i osas kõik klassid lihtsalt kustutada.
 ### Näita kolme pilti, mis on erinevad 
 
@@ -150,15 +151,15 @@ Sel juhul teeme väikse rehkenduse ja tingimuse, et kui, siis.
 
 Esmalt tekitan välja, kuhu saan kirjutada enda poolt valitud kuupäeva (II rida) ja selle järgi defineerin rea, mida on hea kuvada. See ver2 tähendab lihtsalt, et mul siin failis todayd ka mujal kasutatud, seega tekitasin ver2.
 ```php
-$today_ver2 = new DateTime();        
-$today_ver2->setDate(2020, 5, 10);
+$today_manually = new DateTime();        
+$today_manually->setDate(2020, 5, 10);
 
-$iftoday = "Kui täna oleks ".$today_ver2->format('d.m.Y'.",");
+$iftoday = "Kui täna oleks ".$today_manually->format('d.m.Y'.",");
 ```
 Siis kontrollime, kas semester kulgeb, on läbi või pole veel alanud, sõltuvalt sellest, mis kuupäeva ülal sisestasime ja järgnevas reas teisendame päevadeks:
 
 ```php
-$fromsemesterbegin = $semesterbegin->diff($today_ver2);
+$fromsemesterbegin = $semesterbegin->diff($today_manually);
 $fromsemesterbegindays = $fromsemesterbegin->format("%r%a");
 ```
 võrdleme kas ajavahemik on vahemikus 0-semestri kestvus või on pikem või hoopis negatiivne ja väljastame igal vastaval juhul vastava teate:

@@ -4,8 +4,8 @@ heroImage: /logo.png
 heroAlt: Logo image
 heroText: RIF 20
 tagline: Haapsalu kolledži logiraamat
-actionText: Get Started
-actionLink: /guide/
+actionText: Läks!
+actionLink: /php/
 features:
   - title: Simplicity First
     details: Minimal setup with markdown-centered project structure helps you focus on writing.
