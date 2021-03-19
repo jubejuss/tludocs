@@ -208,3 +208,6 @@ if($fromsemesterbegindays <= $semesterdurationdays && $fromsemesterbegindays >=0
 Täismahus koode vaata siis siit:  
 [Lihtsam versioon](https://github.com/jubejuss/githubactions/blob/main/kodutoo_01_lihtsam.php)  
 [Keerulisem versioon](https://github.com/jubejuss/githubactions/blob/main/kodutoo_01_keerulisem.php)
+
+
+## Teine tund
