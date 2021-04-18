@@ -24,6 +24,8 @@ Kolmandaks, testida Toggk nimelist ajaarvestajat.
 
 Lugedes kasutasin koodide testimiseks ja harjutamiseks [playcode'i](https://playcode.io/new/)
 
+Ajaarvestuses on probleemiks unustamine – sisselülitamise unustamine ja väljalülitamise unustamine (oma tavaasjades aitab vigu siluda mailisaatmine või kõne kliendiga, need on träkitavad)
+
 ## Sõnastik
 
 += - see on nagu selline asi, et kui tahan asjale endale midagi liita, ehk asja väärtust liidetavaga tsüklis suurendada  
@@ -36,6 +38,9 @@ let x = 5,
 ```
 
 = vs == vs === kaks võrdust lubab võrduma panna eri tüübid nt `5 == "5"` kolm võrdust käsib/lubab võrduma panna ainult ja ainult sama tüüpi asjad. Nt `5 = 5`
+
+And/Ja – &&  
+Või/or - ||
 
 ### B
 
@@ -52,6 +57,10 @@ let x = 5,
   // → true
   ```
   **NB! Suurtähed on väiksemad kui väiketähed**
+
+### E
+
+- Empty value – null and undefined
 
 ### M
 
@@ -99,3 +108,15 @@ let x = 5,
   ```
 
   Tulemuseks `half of 100 is 50`
+
+### neljapäevased küsimused:
+
+The last logical operator I will discuss is not unary, not binary, but ternary, operating on three values. It is written with a question mark and a colon, like this:
+
+console.log(true ? 1 : 2);
+
+// → 1
+
+console.log(false ? 1 : 2);
+
+// → 2
