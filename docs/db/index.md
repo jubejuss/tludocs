@@ -5,7 +5,7 @@ Fundamentals of Database systems
 
 ## MySql-i Tüübid
 
-MySQL ja MariaDB
+Tavakasutajale tuntumad – MySQL ja MariaDB
 
 ### Oracle omandas MySQL'i.
 
