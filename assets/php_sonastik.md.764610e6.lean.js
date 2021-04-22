@@ -1,0 +1,1 @@
+import{o as i,c as l,a as e}from"./app.8e4620e7.js";const a='{"title":"Sõnastik","description":"","frontmatter":{},"relativePath":"php/sonastik.md","lastUpdated":1619094616464}',t={},s=e('',2);t.render=function(e,a,t,r,n,u){return i(),l("div",null,[s])};export default t;export{a as __pageData};
